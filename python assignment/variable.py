@@ -1,0 +1,1 @@
+print(F'my name is samil, I am {20} years old,city is malappuram')

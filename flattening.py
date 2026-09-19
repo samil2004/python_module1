@@ -17,6 +17,6 @@ print(result)
 
 print([j*2 for i in lst for j in i])
 
-#
+
 
 
