@@ -34,19 +34,41 @@
 # print(obj1.x)
 
 
-class Student_detail:
+# class Student_detail:
 
-  def __init__(self, name, age, department):
-    self.name = name
-    self.age = age
-    self.department = department
+#   def __init__(self, name, age, department):
+#     self.name = name
+#     self.age = age
+#     self.department = department
 
 
-  def student_detail(self):
-    print(f"Student name:{self.name}, Student age:{self.age},Department:{self.department}")
+#   def student_detail(self):
+#     print(f"Student name:{self.name}, Student age:{self.age},Department:{self.department}")
 
 
   
 
-obj = Student_detail('Rahul', 22, 'CS')
-obj.student_detail()
+# obj = Student_detail('Rahul', 22, 'CS')
+# obj.student_detail()
+
+
+#Abstraction;- hiding the inernal details from the user
+from abc import ABC,abstractmethod
+
+class Vechile(ABC):
+    @abstractmethod
+    def start(self):
+        pass
+
+class Car(Vechile):
+    def start(self):
+        print("car start with key")
+
+class Bike(Vechile):
+    def start(self):
+        print("bike start with kicker")
+
+v1=Car()
+v1.start()
+v2=Bike()
+v2.start()
