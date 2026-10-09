@@ -1,6 +1,6 @@
-# Assignment 1
+# Python Assignment – Module One
 
-This assignment contains Python theory questions and programming exercises covering fundamental Python concepts, functions, data types, error handling, basic problem-solving, and Artificial Intelligence and Machine Learning concepts.
+This repository contains Python theory questions and programming exercises covering fundamental Python concepts, functions, data types, error handling, problem-solving, and Artificial Intelligence and Machine Learning.
 
 ## 📂 Folder Structure
 
@@ -31,142 +31,65 @@ python_assignment/
 │
 ├── Exercise_2.pdf
 └── README.md
-
 ```
 
-## 📖 Theory
+## 📖 Theory Questions
 
-The `Theory` folder contains questions related to basic Python concepts and programming fundamentals.
+The `theory` folder contains questions about Python fundamentals.
 
-### Question 1
-What is indentation in Python, and why is it important?
+1. Indentation in Python
+2. Syntax Errors vs Runtime Errors
+3. Variable Assignment
+4. Mutable vs Immutable Data Types
+5. Lambda Functions
 
-### Question 2
-Explain the difference between syntax errors and runtime errors.
+## 💻 Python Programs
 
-### Question 3
-How do you assign a value to a variable?
+The `programs` folder contains practical exercises.
 
-### Question 4
-What is the difference between mutable and immutable data types?
+- Fibonacci Series and Sum
+- Variables: Name, Age, and City
+- Swapping Two Variables
+- Area of a Rectangle
+- String to Integer Conversion
+- Tuple Immutability
+- Common Elements Using Sets
+- Prime Number Checking
+- Palindrome Checking
+- Simple Calculator Using Functions
+- Even or Odd Checking
+- Reversing a Number
+- Exception Handling Using `try`, `except`, `else`, and `finally`
 
-### Question 5
-What is a lambda function? When is it useful?
+## 🤖 Exercise 2 – Artificial Intelligence and Machine Learning
 
-## 💻 Programs
+Exercise 2 covers 20 theoretical questions related to Artificial Intelligence and Machine Learning, including:
 
-The `Programs` folder contains Python programs based on the given exercises.
+- AI vs Traditional Programming
+- Real-World Applications of AI
+- Narrow AI, General AI, and Super AI
+- Ethical Concerns in AI
+- Reactive Machines and Limited Memory AI
+- Theory of Mind AI
+- Machine Learning Applications
+- Training Data vs Testing Data
+- Supervised and Unsupervised Learning
+- Classification and Regression
+- Overfitting and Dimensionality Reduction
+- Reinforcement Learning and Rewards
+- Challenges in Unsupervised Learning
 
-### Question 6
-Write a program to generate the first n Fibonacci numbers and print their sum.
+## 🛠️ Technologies Used
 
-### Question 7
-Create 3 variables: name, age, and city. Assign your details and print them in one sentence.
-
-### Question 8
-Write a program that swaps the values of two variables.
-
-### Question 9
-Write a program to calculate the area of a rectangle using variables length and width.
-
-### Question 10
-Write a Python program that converts the string `"50"` into an integer and adds 100 to it.
-
-### Question 11
-Create a tuple of 3 elements and try to change one element. Observe and explain the error.
-
-### Question 12
-Write a program that checks if two lists have at least one element in common using sets.
-
-### Question 13
-Write a function `is_prime(n)` that checks whether a number is prime or not.
-
-### Question 14
-Write a function `is_palindrome(word)` that returns `True` if the word is a palindrome.
-
-### Question 15
-Write a Python program to create a simple calculator using functions.
-
-### Question 16
-Write a function `check_even_odd(num)` that takes a number and prints whether it is even or odd.
-
-### Question 17
-Write a function `reverse_number(n)` that returns the reverse of a number.
-
-### Question 18
-Write a program using `try`, `except`, `else`, and `finally` together.
-
----
-
-## 📚 Exercise 2 – Artificial Intelligence and Machine Learning
-
-Exercise 2 covers fundamental concepts of Artificial Intelligence (AI), types of AI, Machine Learning (ML), learning methods, and their applications.
-
-### Question 1
-How does AI differ from traditional programming?
-
-### Question 2
-What are some real-world applications of AI?
-
-### Question 3
-Explain the difference between Narrow AI, General AI, and Super AI.
-
-### Question 4
-Explain how Super AI could potentially surpass human intelligence.
-
-### Question 5
-What ethical concerns are associated with Super AI?
-
-### Question 6
-What is Reactive Machine AI? Give examples.
-
-### Question 7
-Explain the concept of Theory of Mind AI.
-
-### Question 8
-How does Limited Memory AI differ from Reactive AI?
-
-### Question 9
-How does Machine Learning relate to Artificial Intelligence?
-
-### Question 10
-Give examples of Machine Learning applications in daily life.
-
-### Question 11
-What is the difference between training and testing data?
-
-### Question 12
-Which learning method is best suited for labeled data?
-
-### Question 13
-Compare Supervised and Unsupervised Learning.
-
-### Question 14
-Explain the difference between classification and regression.
-
-### Question 15
-What is overfitting in supervised learning?
-
-### Question 16
-How does unsupervised learning differ from supervised learning?
-
-### Question 17
-What is dimensionality reduction?
-
-### Question 18
-How does reinforcement learning differ from supervised learning?
-
-### Question 19
-Explain the concept of "reward" in Reinforcement Learning (RL).
-
-### Question 20
-What are some challenges in unsupervised learning?
-
+- **Python 3** – Programming exercises
+- **Markdown** – Theory documentation
+- **Visual Studio Code** – Development environment
+- **Git and GitHub** – Version control and repository hosting
 
 ## 🎯 Objective
 
-To strengthen Python programming fundamentals and develop an understanding of Artificial Intelligence and Machine Learning through theoretical questions and practical exercises.
+To strengthen Python programming fundamentals, improve problem-solving skills, and understand the basic concepts of Artificial Intelligence and Machine Learning through theoretical and practical exercises.
 
 ## 👨‍💻 Author
 
-Mohammed Samil A.C
+**Mohammed Samil A.C**
