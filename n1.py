@@ -120,17 +120,17 @@
 # print(next(g))
 # print(next(g))
 
-##kwargs :-keyword arguments
-# def detail(**kwargs):
-#     print(f'my name is {kwargs['name']}, Iam age is {kwargs['age']},my department is {kwargs['department']}')
+#kwargs :-keyword arguments
+def detail(**kwargs):
+    print(f'my name is {kwargs['name']}, Iam age is {kwargs['age']},my department is {kwargs['department']}')
     
-# detail(name="samil",age=22,department="cs")
+detail(name="samil",age=22,department="cs")
 
 ##*args       → positional values → tuple
 ##**kwargs    → keyword values    → dictionary
 
-# def example(*args, **kwargs):
-#     print(args)
-#     print(kwargs)
+def example(*args, **kwargs):
+    print(args)
+    print(kwargs)
 
-# example(10, 20, name="Samil", age=22)
+example(10, 20, name="Samil", age=22)
