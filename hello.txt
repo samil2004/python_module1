@@ -1,0 +1,4 @@
+Hello, Python!
+I am learning file handling.
+This is my sample text file.
+ welcome to python
